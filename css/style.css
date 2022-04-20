@@ -15,6 +15,10 @@ img {
   margin: 0 auto;
 }
 
+.player2-cards-hit-me {
+  display: inline;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

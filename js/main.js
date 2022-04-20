@@ -27,9 +27,11 @@ function getFetch() {
       document.querySelector("#player2-Card2").src = data.cards[3].image;
       document.querySelector(".hit-me").addEventListener("click", bjHit);
 
+      let i = 4;
       function bjHit() {
         const image = document.createElement("img");
-        image.src = data.cards[4].image;
+        image.src = data.cards[i].image;
+        i += 1;
         console.log(image.src);
         document.querySelector(".player2-cards-hit-me").appendChild(image);
       }
