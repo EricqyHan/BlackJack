@@ -47,6 +47,22 @@ function getFetch() {
         document.querySelector(".player-2-total").innerText = x;
         console.log(x);
       }
+
+      // function cardValue(val, x) {
+      //   if (val === "ACE" && x < 11) {
+      //     return 11;
+      //   } else if (val === "ACE" && x > 11) {
+      //     return 1;
+      //   } else if (val === "KING") {
+      //     return 10;
+      //   } else if (val === "QUEEN") {
+      //     return 10;
+      //   } else if (val === "JACK") {
+      //     return 10;
+      //   } else {
+      //     return val;
+      //   }
+      // }
     })
 
     .catch((err) => {
